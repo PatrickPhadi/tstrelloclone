@@ -1,0 +1,182 @@
+.center {
+  text-align: center;
+}
+
+.boardbrand {
+  padding: 15px;
+}
+
+.placeHolderText {
+  font-size: 14px;
+  margin: auto;
+  color: #968989;
+}
+
+.placeHolderText:hover {
+  cursor: pointer;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.form-control {
+  font-size: 0.8rem;
+}
+
+.btnAdd {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+  color: #315c88ee;
+}
+
+.btnAdd:hover {
+  color: #315c88ee;
+  cursor: pointer;
+}
+
+.list-content {
+  flex-wrap: unset;
+  overflow-x: auto;
+}
+
+.boardHeading {
+  background: #7db0b98f;
+  font-size: 23px;
+  padding: 8px 0px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.list-container {
+  padding: 5px 15px;
+}
+
+.cardContainer {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0px 5px;
+}
+
+.card-container {
+  padding: 0px 10px 45px 10px;
+}
+
+.cardBody {
+  border: 1px solid #ccc;
+  margin: 0px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #ffffff5e;
+  padding: 0px 5px;
+}
+
+.cardheader {
+  margin-bottom: 0px;
+  padding: 5px 11px;
+  font-weight: 600;
+  line-height: 25px;
+  background-color: inherit;
+}
+
+.cardfooter {
+  padding: 0.1rem 0.7rem;
+  background-color: inherit;
+}
+
+.customIcon {
+  margin: 5px 15px;
+}
+
+.customIcon:nth-child() .boardbrand {
+  padding: 1rem 1.25rem;
+}
+
+.list-group-item {
+  padding: 0.45rem 1.25rem;
+}
+
+.card {
+  background-color: #efefef;
+}
+
+.requiredmsg {
+  font-size: 12px;
+  color: #ce3030;
+}
+
+.list-group-item:nth-child(4n + 1) {
+  background: #bee5eb;
+  color: #0c5460;
+}
+
+.list-group-item:nth-child(4n + 2) {
+  background: #f3f3f3;
+  /* background: #ccc; */
+  color: #333a42b0;
+}
+
+.list-group-item:nth-child(4n + 3) {
+  background: #c3e6cb;
+  color: #155724;
+}
+
+.subtitle {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.noborder {
+  border: none;
+}
+
+ul a {
+  font-size: 14px;
+}
+
+/* width */
+ul::-webkit-scrollbar,
+.row::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.cardInput {
+  margin: 10px;
+}
+
+.cardSpace {
+  margin-top: 4px;
+}
+
+/* Track */
+ul::-webkit-scrollbar-track,
+.row::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+ul::-webkit-scrollbar-thumb,
+.row::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+ul::-webkit-scrollbar-thumb:hover,
+.row::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  color: #777b7f;
+}
+
+a:hover {
+  color: #777b7f;
+}
